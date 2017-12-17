@@ -1,0 +1,7 @@
+rm louvain-generic.tar.gz
+wget https://downloads.sourceforge.net/project/louvain/GenericLouvain/louvain-generic.tar.gz
+tar -xvf louvain-generic.tar.gz
+rm louvain-generic.tar.gz
+cd gen-louvain
+make
+../
